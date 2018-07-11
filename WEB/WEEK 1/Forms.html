@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="get">
+        <p>Username:
+           <input type="text" name="username" >
+        </p>
+
+        <p>Password:
+            <input type="password" name="password" >
+        </p>
+        <a href="./Resetpassword.html">Forgot password?</a>
+    </form>
+    <hr>
+    <form action="" method="get">
+        <p>Koji je glavni grad Amerike? 
+        <br>
+            <input type="radio" name="glgrad" value="njujork">Nju Jork
+            <input type="radio" name="glgrad" value="sijetl">Sijetl
+            <input type="radio" name="glgrad" value="losandjeles">Los Andjeles
+        </p>
+
+        <p>Koji se gradovi nalaze u Francuskoj?
+        <br>
+            <input type="checkbox" name="gradovifranc" value="Sevilja">Sevilja
+            <input type="checkbox" name="gradovifranc" value="Nant">Nant
+            <input type="checkbox" name="gradovifranc" value="Beograd">Beograd
+            <input type="checkbox" name="gradovifranc" value="Pariz">Pariz
+            <input type="checkbox" name="gradovifranc" value="Tuluz">Tuluz
+        </p>
+
+        <p>Opisi zemlju iz koje dolazis:
+        <br>
+            <textarea name="opis" id="" cols="50" rows="10"></textarea>
+        </p>
+    </form>
+    <hr>
+    <form action="">
+        <select name="day" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+        </select>
+        <select name="month" id="">
+            <option value="jan">jan</option>
+            <option value="feb">feb</option>
+            <option value="mar">mar</option>
+            <option value="apr">apr</option>
+            <option value="may">may</option>
+            <option value="jun">jun</option>
+            <option value="jul">jul</option>
+            <option value="aug">aug</option>
+            <option value="sep">sep</option>
+            <option value="oct">oct</option>
+            <option value="nov">nov</option>
+            <option value="dec">dec</option>
+        </select>
+        <select name="year" id="">
+            <option value="1987">1987</option>
+            <option value="1988">1988</option>
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+        </select>
+        <p>Where would you like to travel this year?
+            <br>
+            <select name="multi" id="" multiple>
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Greecce">Greecce</option>
+            </select>
+        </p>
+    </form>
+    <hr>
+    <form action="handle-upload.html" method="POST">
+        <h1>THEN VS NOW</h1>
+        <h3>THEN</h3>
+        <input type="file" name="then" id="">
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <h3>NOW</h3>
+        <input type="file" name="now" id="">
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <input type="submit" value="SEND">
+    </form>
+    <hr>
+    <form action="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, corrupti sit. Molestias nobis praesentium quod quia velit? Quasi illum soluta id blanditiis animi adipisci inventore! Vel quaerat libero iste sit.</p>
+        Name:
+        <input type="text" name="name" id=""> <br>
+        Surname:
+        <input type="text" name="surname" id=""> <br>
+        About:
+        <textarea name="" id="" cols="30" rows="4"></textarea> <br>
+        Country:
+        <input type="radio" name="country" value="italy">Italy
+        <input type="radio" name="country" value="Spain">Spain
+        <input type="radio" name="country" value="Greecce">Greecce
+        <br>
+        <button type="reset">RESET</button>
+        <button type="submit"> <img src="data:image/jpeg;base64,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" alt="submit" width="20" height="20"> SUBMIT</button>
+    </form>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Personal data</legend>
+            <label for="name">
+                Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <br>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email">
+            </label>
+            <br>
+            <label for="phone">
+                Phone:
+                <input type="number" name="phone" id="phone">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Location</legend>
+            <label for="city">
+                City:
+                <input type="text" name="city" id="city">
+            </label>
+                <br>
+            <label for="street">
+                Street:
+                <input type="text" name="street" id="street">
+            </label>
+            <br>
+            <label for="streetnum">
+                Street number:
+                <input type="number" name="streetnum" id="streetnum">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Event info</legend>
+            <label for="event">
+                <select name="event" id="event">
+                    <option value="birthday">birthday</option>
+                    <option value="wedding" selected>wedding</option>
+                    <option value="company">company</option>
+                </select>
+            </label>
+            <br>
+            <label for="numofgues">
+                Number of guests:
+                <input type="number" name="numofgues" id="numofgues" placeholder="40">
+            </label>
+        </fieldset>
+    </form>
+    <hr>
+
+
+
+</body>
+</html>
