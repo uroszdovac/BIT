@@ -1,0 +1,24 @@
+#firstP{
+    color: rgb(0, 206, 209);
+    background-color: gold;
+    opacity: 0.5;
+}
+
+#secondP{
+    color: bisque;
+    background-color: hotpink;
+}
+
+#thirdP{
+    color: #228b22;
+    background-color: rgba(244, 164, 96, 0.5);
+}
+
+#snowy1{
+    background-color:gold;
+    opacity: 0.5;
+}
+
+#snowy2{
+    background-color:rgba(255, 215, 0, 0.5);
+}
