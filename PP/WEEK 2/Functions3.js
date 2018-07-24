@@ -162,3 +162,59 @@ function findWord(text, word){
 }
 
 findWord(a, b);
+
+
+/* Write a function to hide email address.
+
+"myemailaddress@bgit.rs" -> "myemail...@bgit.rs"  */
+
+var mail = "myemailaddress@bgit.rs";
+var myMail = 'urosmijatovic87@gmail.com';
+
+function hideEmail(email){
+    var print = '';
+    for(var i = 0; i < email.length; i++){
+        if(i < 7){
+            print += email[i];
+        }
+    }
+    print += '...';
+    for(var i = 0; i < email.length; i++){
+        if(email[i] == '@'){
+            for(var j = i; j < email.length; j++){
+                print += email[j];
+            }
+        }
+    }
+    console.log(print);
+}
+
+hideEmail(mail);
+hideEmail(myMail);
+
+/* Write a program to find the most frequent item of an array.
+
+[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]  */
+
+var e = [3, 3, 3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+function mostFrequent(array){
+    var mostFrequent = 1;
+    var m = 0;
+    var item;
+    for(var i = 0; i < array.length; i++){
+        for(var j = i; j < array.length; j++){
+            if(array[j] == array[i]){
+                m++;
+            }
+            if(mostFrequent < m){
+                mostFrequent = m;
+                item = array[i];
+            }   
+        }
+        m = 0;
+    }
+    console.log(item + '(' + mostFrequent + ' times)');
+}
+
+mostFrequent(e);
