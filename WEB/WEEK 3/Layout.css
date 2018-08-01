@@ -1,0 +1,29 @@
+#firstImg{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 40px;
+}
+
+#secondImg{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+#thirdImg{
+    position: absolute;
+    bottom: 0;
+}
+
+#topLink{
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    background-color: forestgreen;
+    padding: 7px;
+    color: wheat;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 900;
+}

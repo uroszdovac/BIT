@@ -1,0 +1,103 @@
+#first{
+    list-style-type: circle;
+}
+
+#second{
+    list-style-type: square;
+}
+
+#third{
+    list-style-type: upper-alpha;
+}
+
+#fourth{
+    list-style-type: upper-roman;
+}
+
+#fifth, #sixth{
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfFlJNT2OdE1CXRjqHlGiOENlBwKQsPKd_GNXuv7Rp5afFEyVg);
+    width: 200px;
+}
+
+#sixth{
+    list-style-position: inside;
+}
+
+#fifth{
+    margin-left: 40px;
+}
+
+table{
+    width: 960px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: rgb(206, 198, 198);
+}
+
+thead:first-of-type{
+    background-color: brown;
+    font-size: 20px;
+}
+
+tbody tr:hover{
+    background-color: gold;
+}
+
+thead td{
+    padding: 10px 0;
+}
+
+table th{
+    color: white;
+    padding: 12px;
+    font-weight: 800;
+}
+
+form{
+    background-color: silver;
+    width: 360px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border-radius: 25px 0;
+}
+
+span{
+    color: rgba(235, 155, 6, 0.966);
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+hr{
+    width: 90%;
+    color: black;
+}
+
+p{
+    margin: 8px 0 4px 28px;
+}
+
+
+input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 4px;
+    margin:0 0 4px 28px;
+    border: 0;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+}
+
+#submit{
+    width: 80%;
+    background-color:rgb(151, 14, 14);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin:20px 0 20px 34px;
+}
