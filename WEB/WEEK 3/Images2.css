@@ -1,0 +1,8 @@
+body{
+    color: white;
+    background-image: url(http://www.serbia.com/wp-content/uploads/2015/05/tarica2.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
