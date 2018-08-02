@@ -1,0 +1,62 @@
+nav{
+    width: 960px;
+    background-color:brown;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    color: beige;
+    float: right;
+    margin-right: 10px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 8px;
+}
+
+nav li:hover{
+    color: brown;
+    background-color:beige;
+}
+
+main{
+    width: 960px;
+    margin: 5px auto;
+}
+
+#cssHtml{
+    width: 100%;
+}
+
+article{
+    width: 31%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+aside{
+    width: 31%;
+    display: inline-block;
+    margin-left: 10px;
+    background-color:goldenrod;
+    padding: 5px;
+    position: relative;
+    bottom: 84px;
+    color:whitesmoke;
+}
+hr{
+    width: 90%;
+}
+
+footer{
+    background-color: rgb(24, 24, 109);
+    color:wheat;
+    padding: 8px;
+}
+
+footer p{
+    margin-left: 24%;
+}
