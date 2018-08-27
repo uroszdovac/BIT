@@ -1,0 +1,266 @@
+*{
+    /* font-family: roboto; */
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'roboto';
+    src: url(assets/fonts/Roboto-Thin.ttf);
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+header{
+    background-image: url("../PROJECTS/assets/images/banner3.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2{
+    color: white;
+    margin: 15px;
+}
+
+#headerButton{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(76, 133, 197);
+    border: 0;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+
+#buildEstate{
+    text-align: center;
+    color: rgb(110, 108, 108);
+    margin-top: 15px;
+}
+
+#buildEstate span{
+    color: orange;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    padding-left: 15px;
+    font-weight: 900;
+}
+
+nav {
+    background-color: rgb(111, 158, 211);
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav li{
+    padding: 8px;
+    letter-spacing: 3px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main h1{
+    margin-bottom: 15px;
+}
+
+.line1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 12%;
+    margin-bottom: 9px;
+    margin-right: 4px;
+}
+
+.line2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 12%;
+    margin-bottom: 9px;
+    margin-left: 4px;
+}
+
+.qube{
+    display: inline-block;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+
+article{
+    text-align: left;
+}
+
+article h3{
+    margin: 20px 0;
+    color: rgb(111, 158, 211);
+}
+
+article  p{
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+article ul{
+    list-style-image: url(assets/images/arrow_bullet.png);
+    padding: 0;
+    list-style-position: inside;
+    margin: 30px 0;
+}
+
+article li{
+    margin: 14px 0 ;
+    letter-spacing: 1px;
+}
+
+
+main img{
+    width: 100%;
+}
+.card{
+    background-color: rgb(111, 158, 211);
+    padding: 12px;
+    color: white;
+    margin: 12px 0;
+}
+.card p:last-child{
+   margin-top: 35px;
+   line-height: 1.5em;
+}
+.card img{
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 3px;
+}
+.card p:first-of-type{
+    color: black;
+}
+
+aside{
+    text-align: center;
+}
+
+section img{
+    height: 20px;
+    width: 20px;
+}
+.contact{
+    color: white;
+    padding: 30px 0;
+}
+
+#contactUs{
+    background-color: rgb(61, 201, 124);
+}
+
+.contact h4{
+    margin-bottom: 15px;
+}
+
+#connectUs{
+    background-color: palevioletred;
+}
+
+#connectUs img{
+    margin-right: 7px;
+}
+
+#address{
+    background-color: rgb(28, 28, 194);
+}
+
+#house{
+    background-color: powderblue;
+}
+
+#house img{
+    height: 120px;
+    width: 220px;
+}
+
+#map{
+    padding: 0;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+form{
+    margin: 20px 0;
+}
+
+form input{
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form textarea{
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#submit{
+    float: left;
+    margin-left: 20px;
+    color:white;
+    background-color: rgb(214, 140, 2);
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(29, 27, 27);
+    margin-top: 25px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    font-family: monospace;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 15px auto;
+    width: 70%;
+}
+
+footer li{
+    float: left;
+    margin-right: 6px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    color: white;
+    margin: 25px 0;
+}
+
+@media (min-width 768px){
+
+}
