@@ -1,0 +1,40 @@
+$colorW: white;
+$bColor: #e3f2fd;
+$width1: 960px;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: $bColor;
+}
+
+.container{
+    width: $width1;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: #2962ff;
+    color: $colorW;
+}
+
+table {
+    width: 100%;
+    color: #333;
+    background: white;
+    border-collapse: collapse;
+}
+
+table{
+    tr{
+        border-bottom: 1px solid #eee;
+    }
+
+    td{
+        padding: 5px 0;
+    }
+}
