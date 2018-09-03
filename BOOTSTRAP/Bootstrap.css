@@ -1,0 +1,31 @@
+.row div{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: gray;
+}
+#row1{
+    background-color:olive;
+}
+#row1 div{
+    background-color:greenyellow;
+}
+#row2{
+    background-color: darkgoldenrod;
+}
+#row2 div{
+    background-color: lightcoral;
+}
+#row3{
+    background-color: firebrick;
+}
+#row3 div{
+    background-color: khaki;
+}
+
+.row{
+    padding: 15px;
+}
+
+#row4 div{
+    border: none;
+}
