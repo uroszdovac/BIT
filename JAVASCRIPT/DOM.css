@@ -1,0 +1,16 @@
+.gold{
+    background-color:gold;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.upper{
+    background-color: hotpink;
+    text-transform: uppercase;
+}
+
+#active{
+    background-color: red;
+}
