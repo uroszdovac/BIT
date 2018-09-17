@@ -1,0 +1,14 @@
+#toggleBG{
+    background-color:red;
+    color: white;
+    padding: 12px;
+}
+
+.blue{
+    background-color: steelblue;
+}
+
+#autoChange{
+    background-color:yellow;
+    margin-top: 20px;
+}

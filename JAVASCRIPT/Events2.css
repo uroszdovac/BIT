@@ -1,0 +1,14 @@
+body{
+    background-image: url('field\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#player{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+
