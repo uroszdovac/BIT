@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div id="top">
+        <div id="statistic">
+            <h1>Exam statistic June</h1>
+            <p>Total students:</p>
+            <div id="headerPassed" >
+                <p>PASSED <span id="numOfPassed">0</span><span id="percentOfPassed"></span></p>
+            </div>
+            <div id="headerFailed" class="stats">
+                <p>FAILED <span id="numOfFailed">0</span><span id="percentOfFailed"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="add">
+        <select name="subject" id="subject">
+            <option value="web">Web</option>
+            <option value="javascript">JavaScript</option>
+            <option value="spa">SPA</option>
+        </select>
+
+        <input type="text" name="name" id="name">
+        <input type="number" name="grade" id="grade" placeholder="Grade" min="1" max="10">
+        <input type="button" value="ADD" id="addButton">
+    </div>
+
+    <div id="print">
+        <div id="passPrint" class="printed">
+            <p>PASSED</p>
+            <ul id="passedList">
+
+            </ul>
+        </div>
+        <div id="failPrint" class="printed">
+            <p>FAILED</p>
+            <ul id="failedList">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="JS/app.js"></script>
+    <script src="JS/exam.js"></script>
+    <script src="JS/form.js"></script>
+    <script src="JS/student.js"></script>
+    <script src="JS/subject.js"></script>
+</body>
+</html>
