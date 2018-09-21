@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+#top{
+    
+}
+
+#statistic{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#statistic h1{
+    text-align: center;
+}
+
+#statistic h1 + p{
+    text-align: center;
+}
+
+#add{
+    text-align: center;
+}
+
+.printed{
+    
+    width: 45%;
+    float: left;
+}
+
+.printed p{
+    text-align: center;
+}
+
+#print{
+    width: 960px;
+    margin: 50px auto;
+}
+
+#add{
+    background-color: gray;
+    padding: 15px;
+
+}
+
+#add input, #add select{
+    margin-right: 18px;
+    padding: 10px;
+}
+

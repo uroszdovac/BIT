@@ -1,0 +1,28 @@
+form{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+#message{
+    width: 30%;
+}
+
+#send{
+    background-color: red;
+    color: wheat;
+    padding: 8px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    border: 1px solid gold;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+}
