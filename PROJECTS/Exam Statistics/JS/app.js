@@ -8,6 +8,8 @@ var percentOfPassed = document.querySelector('#percentOfPassed');
 var percentOfFailed = document.querySelector('#percentOfFailed');
 var passedList = document.querySelector('#passedList');
 var failedList = document.querySelector('#failedList');
+var totalStudents = document.querySelector('#totalStudents');
+var passedLis = document.querySelectorAll('.passedLi')
 var nameAndSurname;
 var selectedSubject;
 var gradeSelected;
@@ -23,3 +25,12 @@ var percentOfFailedNum = 0;
 var percentOfPassedNum = 0;
 var passedLi;
 var failedLi;
+var passedGrade;
+var failedGrade;
+var passedGradeInput;
+var failedGradeInput;
+var xSpanPassed;
+var xSpanPassedInput;
+var xSpanFailed;
+var xSpanFailedInput;
+
